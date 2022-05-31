@@ -1,11 +1,11 @@
 # HR Technical challenge for data engineering skills assessment
 
 :hardbreaks-option:
-Hiring Manager: Kirsten Edwards <kirsten.edwards@riotinto.com>
+Hiring Manager: Kirsten Edwards  
 v1.1, May 2022
 :url-repo: https://github.com/Joe-Matthew-RIO/de-challenge-2022
 
-NOTE: The purpose of this assessment is to understand skills and experience with:
+The purpose of this assessment is to understand skills and experience with:
 
 - Big data processing
 - Data wrangling
