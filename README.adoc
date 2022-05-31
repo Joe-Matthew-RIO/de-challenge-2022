@@ -1,4 +1,5 @@
-= HR Technical challenge for data engineering skills assessment
+# HR Technical challenge for data engineering skills assessment
+
 :hardbreaks-option:
 Hiring Manager: Kirsten Edwards <kirsten.edwards@riotinto.com>
 v1.1, May 2022
@@ -14,14 +15,14 @@ NOTE: The purpose of this assessment is to understand skills and experience with
 There are two ways options below to demonstrate these: 
 
 
-# Option 1 (2-3 hours suggested time)
+## Option 1 (2-3 hours suggested time)
 
 === This challenge includes a dataset that sets the foundation for the test.
 Dataset itself is named "Fraud.csv" and stored in git-lfs.
 link:https://github.com/Joe-Matthew-RIO/de-challenge-2022/blob/master/Fraud.csv [Fraud Dataset]
 
 
-==== About Dataset
+### About Dataset
 . Dataset properties
 * 6362620 records
 * csv format
@@ -39,7 +40,7 @@ link:https://github.com/Joe-Matthew-RIO/de-challenge-2022/blob/master/Fraud.csv 
 * *isFraud* - These are the transactions made by the fraudulent agents inside the simulation. In this specific dataset the fraudulent behavior of the agents aims to profit by taking control of customers' accounts and try to empty the funds by transferring to another account and then cashing out of the system.
 * *isFlaggedFraud* - The business model aims to control massive transfers from one account to another and flags illegal attempts. An illegal attempt in this dataset is an attempt to transfer more than 200,000 in a single transaction.
 
-=== Finally, The assignment
+### Finally, The assignment
 
 . Build a Data Processing pipeline takes supplied dataset from point "A", preprocesses and puts it into point "B". It's up to you what point A and point B is. Also, it's up to you if you ETL or ELT. As part of preprocessing the data:
 * Count how many fraudulent transactions this dataset contains
@@ -53,7 +54,7 @@ NOTE: Provide your findings and the steps taken to arrive at these results
 * A word document or PDF showing relevant parts of code/output for the first part and a one-page architecture depiction. 
 
 
-# Option 2  
+## Option 2  
 
 Provide a GitHub repo with some of your sample code showcasing your skills at par with Option 1. Please provide an architectural example of such a design, showing:
 
